@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Download } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Download} from 'lucide-react';
 
 const HomeSection: React.FC = () => {
   return (
@@ -24,7 +24,7 @@ const HomeSection: React.FC = () => {
                 onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
                 className="bg-white text-blue-700 hover:bg-blue-100 px-6 py-3 rounded-lg font-medium flex items-center transition-all shadow-lg hover:shadow-xl"
               >
-                Explore Features
+               Features
                 <ArrowRight className="ml-2 h-5 w-5" />
               </button>
               <a 
@@ -36,6 +36,15 @@ const HomeSection: React.FC = () => {
                 Download Brochure
                 <Download className="ml-2 h-5 w-5" />
               </a>
+              <a
+              href="https://aivac-prototype.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-700 text-white border border-blue-400 hover:bg-blue-600 px-6 py-3 rounded-lg font-medium flex items-center transition-all shadow-lg hover:shadow-xl"
+            >
+              Get Beta Access/Prototype
+              <ArrowUpRight className="ml-2 h-5 w-5"/>
+            </a>
             </div>
           </div>
           <div className="hidden md:block">

@@ -37,6 +37,14 @@ const PrototypeSection: React.FC = () => {
             >
               ⬇ Download Brochure (PDF)
             </a>
+            <a
+              href="https://aivac-prototype.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-2 mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow"
+            >
+              Get Beta Access/Prototype
+            </a>
           </div>
 
           {/* Right image with labels */}

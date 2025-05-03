@@ -128,8 +128,8 @@ const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-xl">Website</h4>
-                    <a href="https://aivac-bluestar.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-100 hover:text-white transition-colors">
-                      aivac-bluestar.netlify.app
+                    <a href="https://aivac-official.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-100 hover:text-white transition-colors">
+                      aivac-official.netlify.app
                     </a>
                   </div>
                 </div>
