@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
               <li><a href="#home" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
               <li><a href="#about" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
               <li><a href="#features" className="text-gray-400 hover:text-white transition-colors">Features</a></li>
-              <li><a href="#prototype" className="text-gray-400 hover:text-white transition-colors">Prototype</a></li>
+              <li><a href="https://aivac-prototype.netlify.app" target="_blank" className="text-gray-400 hover:text-white transition-colors">Prototype</a></li>
               <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Installation Guide</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">API Documentation</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Case Studies</a></li>
-              <li><a href="https://drive.google.com/file/d/1p2fPA8sg_Qy_UMp8A6-JH2HhwtnYkiEz/view?usp=sharing" className="text-gray-400 hover:text-white transition-colors">Download Brochure</a></li>
+              <li><a href="https://drive.google.com/file/d/1p2fPA8sg_Qy_UMp8A6-JH2HhwtnYkiEz/view" target="_blank" className="text-gray-400 hover:text-white transition-colors">Download Brochure</a></li>
             </ul>
           </div>
           
