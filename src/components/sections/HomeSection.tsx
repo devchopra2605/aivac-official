@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, ArrowUpRight, Download} from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Download, NotebookIcon} from 'lucide-react';
 
 const HomeSection: React.FC = () => {
   return (
@@ -19,32 +19,42 @@ const HomeSection: React.FC = () => {
             <p className="mb-8 text-blue-200">
               Powered by – Bluestar India
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xl">
               <button 
                 onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
-                className="bg-white text-blue-700 hover:bg-blue-100 px-6 py-3 rounded-lg font-medium flex items-center transition-all shadow-lg hover:shadow-xl"
+                className="w-full bg-white text-blue-700 hover:bg-blue-100 px-6 py-3 rounded-lg font-medium flex items-center justify-center transition-all shadow-lg hover:shadow-xl"
               >
-               Features
+                Features
                 <ArrowRight className="ml-2 h-5 w-5" />
               </button>
+              <a
+                href="https://aivac-prototype.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-blue-700 text-white border border-blue-400 hover:bg-blue-600 px-6 py-3 rounded-lg font-medium flex items-center justify-center transition-all shadow-lg hover:shadow-xl"
+              >
+                Get Beta Access
+                <ArrowUpRight className="ml-2 h-5 w-5"/>
+              </a>
               <a 
                 href="https://drive.google.com/file/d/1p2fPA8sg_Qy_UMp8A6-JH2HhwtnYkiEz/view?usp=sharing" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-blue-700 text-white border border-blue-400 hover:bg-blue-600 px-6 py-3 rounded-lg font-medium flex items-center transition-all shadow-lg hover:shadow-xl"
+                className="w-full bg-blue-700 text-white border border-blue-400 hover:bg-blue-600 px-6 py-3 rounded-lg font-medium flex items-center justify-center transition-all shadow-lg hover:shadow-xl"
               >
                 Download Brochure
                 <Download className="ml-2 h-5 w-5" />
               </a>
               <a
-              href="https://aivac-prototype.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-blue-700 text-white border border-blue-400 hover:bg-blue-600 px-6 py-3 rounded-lg font-medium flex items-center transition-all shadow-lg hover:shadow-xl"
-            >
-              Get Beta Access/Prototype
-              <ArrowUpRight className="ml-2 h-5 w-5"/>
-            </a>
+                href="public\uploads\AIVAC Prototype Dev Chopra (PS-04 GET).pdf"
+                download="AIVAC-Demo-Guide.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-blue-700 text-white border border-blue-400 hover:bg-blue-600 px-6 py-3 rounded-lg font-medium flex items-center justify-center transition-all shadow-lg hover:shadow-xl"
+              >
+                Demo Guide
+                <NotebookIcon className="ml-2 h-5 w-5"/>
+              </a>
             </div>
           </div>
           <div className="hidden md:block">
