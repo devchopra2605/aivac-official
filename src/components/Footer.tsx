@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Technical Specs</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Installation Guide</a></li>
+              <li><a href="public\uploads\AIVAC Prototype Dev Chopra (PS-04 GET).pdf" download="AIVAC-Demo-Guide.pdf" className="text-gray-400 hover:text-white transition-colors">Installation Guide</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">API Documentation</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Case Studies</a></li>
               <li><a href="https://drive.google.com/file/d/1p2fPA8sg_Qy_UMp8A6-JH2HhwtnYkiEz/view" target="_blank" className="text-gray-400 hover:text-white transition-colors">Download Brochure</a></li>

@@ -10,12 +10,13 @@ import FeaturesSection from './components/sections/FeaturesSection';
 import PrototypeSection from './components/sections/PrototypeSection';
 import ContactSection from './components/sections/ContactSection';
 import Footer from './components/Footer';
+import YouTubeVideo from './components/YouTubeVideo';
 
 function App() {
   useEffect(() => {
     // Update document title
     document.title = 'AIVAC | Your Smart AI HVAC System';
-    
+
     // Add grid pattern CSS for How It Works section
     const style = document.createElement('style');
     style.innerHTML = `
@@ -25,7 +26,7 @@ function App() {
       }
     `;
     document.head.appendChild(style);
-    
+
     return () => {
       document.head.removeChild(style);
     };
@@ -40,6 +41,12 @@ function App() {
       <WhatWeDoSection />
       <WhyAIVACSection />
       <HowItWorksSection />
+      <YouTubeVideo
+        videoId="yMNKCpIYqlo"
+        title="Prototype Demonstration"
+        description="A smart and efficient solution for the future of HVACR"
+        className="my-8"
+      />
       <FeaturesSection />
       <PrototypeSection />
       <ContactSection />

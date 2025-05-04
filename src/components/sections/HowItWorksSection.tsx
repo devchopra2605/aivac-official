@@ -24,7 +24,7 @@ const HowItWorksSection: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Sense</h3>
                 <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
-                  <p className="text-gray-600 mb-4">Real-time data from temp, humidity & occupancy sensors</p>
+                  <p className="text-gray-600  mb-4">Realtime inputs from temp, humidity & occupancy</p>
                   <ul className="text-left text-gray-600 text-sm space-y-2">
                     <li>• Multiple sensor integration</li>
                     <li>• Pattern detection</li>
@@ -39,11 +39,12 @@ const HowItWorksSection: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Analyze</h3>
                 <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
-                  <p className="text-gray-600 mb-4">AI-powered analysis of collected data</p>
+                  <p className="text-gray-600 mb-4">AI-powered analysis of collected data and real-time feedback</p>
                   <ul className="text-left text-gray-600 text-sm space-y-2">
                     <li>• Threshold-based and dynamic rule processing</li>
                     <li>• Comfort optimization</li>
                     <li>• Predictive modeling</li>
+                    
                   </ul>
                 </div>
               </div>
@@ -54,7 +55,7 @@ const HowItWorksSection: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Optimize</h3>
                 <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
-                  <p className="text-gray-600 mb-4">Smart switching via intelligent control</p>
+                  <p className="text-gray-600 mb-4">Smart switching via intelligent control powered by algorithms</p>
                   <ul className="text-left text-gray-600 text-sm space-y-2">
                     <li>• Feedback loops for energy balance</li>
                     <li>• Adaptive system response</li>
@@ -69,7 +70,7 @@ const HowItWorksSection: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Monitor</h3>
                 <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
-                  <p className="text-gray-600 mb-4">Mobile access to system performance</p>
+                  <p className="text-gray-600 mb-4">Mobile access to system performance with analytics reporting on cloud</p>
                   <ul className="text-left text-gray-600 text-sm space-y-2">
                     <li>• Real-time monitoring</li>
                     <li>• Cloud analytics and alerts</li>
